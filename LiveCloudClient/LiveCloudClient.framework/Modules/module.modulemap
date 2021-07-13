@@ -1,0 +1,6 @@
+framework module LiveCloudClient {
+  umbrella header "LiveCloudClient.h"
+
+  export *
+  module * { export * }
+}
