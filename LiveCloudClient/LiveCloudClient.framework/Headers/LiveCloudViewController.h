@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LiveCloudViewController : UIViewController
 
-- (instancetype)initWithRoomUrl:(NSString *)roomUrl;
+- (instancetype)initWithRoomUrl:(NSString *)roomUrl options:(nullable NSDictionary *)options;
 
 @end
 
