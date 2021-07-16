@@ -1,7 +1,6 @@
 # LiveCloudClient
 
 [![Version](https://img.shields.io/cocoapods/v/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/LiveCloudClient)
-[![License](https://img.shields.io/cocoapods/l/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/LiveCloudClient)
 [![Platform](https://img.shields.io/cocoapods/p/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/LiveCloudClient)
 
 
@@ -45,7 +44,7 @@ import LiveCloudClient
     ......
 
     // 通过接口获取直播课堂 url
-    let controller = LiveCloudViewController.init(roomUrl: url);
+    let controller = LiveCloudViewController.init(roomUrl: url, options: nil);
     self.navigationController?.pushViewController(controller, animated: true);
     
     ......
@@ -60,7 +59,7 @@ import LiveCloudClient
     ......
 
     // 通过接口获取直播课堂 url
-    LiveCloudViewController *controller = [[LiveCloudViewController alloc] initWithRoomUrl:url];
+    LiveCloudViewController *controller = [[LiveCloudViewController alloc] initWithRoomUrl:url options:nil];
     [self.navigationController pushViewController:controller animated:YES];
 
     ......
