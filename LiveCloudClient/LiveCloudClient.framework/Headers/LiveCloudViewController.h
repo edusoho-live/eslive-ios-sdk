@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (instancetype)initWithRoomUrl:(NSString *)roomUrl options:(nullable NSDictionary *)options;
+- (instancetype)initWithOfflineUrl:(NSString *)url;
 
 @end
 
