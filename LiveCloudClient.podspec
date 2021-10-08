@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LiveCloudClient'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'Live Cloud iOS SDK.'
   s.homepage         = 'https://github.com/codeages/livecloud-ios-sdk'
   s.license          = { :type => 'Copyright', :text => 'Copyright 2021 Kuozhi Network Tech Ltd. All rights reserved.' }
