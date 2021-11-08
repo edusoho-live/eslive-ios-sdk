@@ -11,6 +11,7 @@ typedef NS_ENUM (NSInteger, LCOfflineStatus) {
     LCOfflineStatusDownloading      = 0,
     LCOfflineStatusFinish       = 1,
     LCOfflineStatusFailure       = 2,
+    LCOfflineStatusPause       = 3,
 };
 
 NS_ASSUME_NONNULL_BEGIN
