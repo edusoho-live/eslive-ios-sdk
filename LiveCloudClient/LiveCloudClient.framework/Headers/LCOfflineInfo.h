@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) NSUInteger totalUnitCount;
 @property(nonatomic, assign) NSUInteger completedUnitCount;
 @property (strong, nonatomic) NSDictionary<NSString *, NSString *> *attachments;
+@property (nonatomic, assign) BOOL zombieInfo;
 - (float)progressValue;
 @end
 
