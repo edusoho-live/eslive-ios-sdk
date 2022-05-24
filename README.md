@@ -1,7 +1,7 @@
 # ESLive-iOS-SDK
 
-[![Version](https://img.shields.io/cocoapods/v/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/eslive-ios-sdk)
-[![Platform](https://img.shields.io/cocoapods/p/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/eslive-ios-sdk)
+[![Version](https://img.shields.io/cocoapods/v/eslive-ios-sdk.svg?style=flat)](https://cocoapods.org/pods/eslive-ios-sdk)
+[![Platform](https://img.shields.io/cocoapods/p/eslive-ios-sdk.svg?style=flat)](https://cocoapods.org/pods/eslive-ios-sdk)
 
 ## 安装
 
