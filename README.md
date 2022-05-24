@@ -1,8 +1,7 @@
-# LiveCloudClient
+# ESLive-iOS-SDK
 
-[![Version](https://img.shields.io/cocoapods/v/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/LiveCloudClient)
-[![Platform](https://img.shields.io/cocoapods/p/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/LiveCloudClient)
-
+[![Version](https://img.shields.io/cocoapods/v/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/eslive-ios-sdk)
+[![Platform](https://img.shields.io/cocoapods/p/LiveCloudClient.svg?style=flat)](https://cocoapods.org/pods/eslive-ios-sdk)
 
 ## 安装
 
@@ -15,7 +14,7 @@
 ```ruby
 # platform :ios, '9.0'
 target 'Your App' do
-    pod 'LiveCloudClient'
+    pod 'eslive-ios-sdk'
 end
 ```
 
@@ -39,14 +38,14 @@ end
 - Swift 接入示例
 
 ```swift
-import LiveCloudClient
+import ESLiveSDK
 
     ......
 
     // 通过接口获取直播课堂 url
     let controller = LiveCloudViewController.init(roomUrl: url, options: nil);
     self.navigationController?.pushViewController(controller, animated: true);
-    
+
     ......
 }
 ```
@@ -54,8 +53,8 @@ import LiveCloudClient
 - Objective-C 接入示例
 
 ```objc
-#import "LiveCloudClient/LiveCloudClient.h"
-    
+#import "ESLiveSDK/LiveCloudClient.h"
+
     ......
 
     // 通过接口获取直播课堂 url
@@ -65,7 +64,6 @@ import LiveCloudClient
     ......
 }
 ```
-
 
 ## License
 
