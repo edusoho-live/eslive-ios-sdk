@@ -12,6 +12,6 @@ FOUNDATION_EXPORT double LiveCloudClientVersionNumber;
 //! Project version string for LiveCloudClient.
 FOUNDATION_EXPORT const unsigned char LiveCloudClientVersionString[];
 
-#import <LiveCloudClient/LiveCloudViewController.h>
-#import <LiveCloudClient/LCOfflineManager.h>
-#import <LiveCloudClient/LCOfflineInfo.h>
+#import <ESLiveSDK/LiveCloudViewController.h>
+#import <ESLiveSDK/LCOfflineManager.h>
+#import <ESLiveSDK/LCOfflineInfo.h>
