@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'eslive-ios-sdk'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'EduSoho Live Cloud iOS SDK.'
   s.homepage         = 'https://github.com/edusoho-live/eslive-ios-sdk'
   s.license          = { :type => 'Copyright', :text => 'Copyright 2022 Kuozhi Network Tech Ltd. All rights reserved.' }
