@@ -7,9 +7,8 @@ Pod::Spec.new do |s|
   s.author           = { 'zhugexiaobo' => 'zhugexiaobo@gmail.com' }
   s.source           = { :git => 'https://github.com/edusoho-live/eslive-ios-sdk.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files  = 'ESLive-iOS-SDK/ESLiveSDK.xcframework/Headers/*.{h}'
+  s.source_files  = 'ESLive-iOS-SDK/ESLiveSDK.xcframework/ios-arm64/ESLiveSDK.xcframework/Headers/*.{h}'
   s.vendored_frameworks = 'ESLive-iOS-SDK/ESLiveSDK.xcframework'
-  s.public_header_files = 'ESLive-iOS-SDK/ESLiveSDK.xcframework/Headers/LiveCloudClient.h'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
